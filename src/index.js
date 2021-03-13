@@ -8,7 +8,7 @@
 
 exports.min = function min(array) {
     return (!array || !array.length) ? 0 : Math.min(...array)
-}
+};
 
 // exports.max = function max(array) {
 //     if (!array) return 0
@@ -28,4 +28,4 @@ exports.avg = function avg(array) {
         acc += el / array.length
         return Number(acc.toFixed(2))
     }, 0)
-}
+};
